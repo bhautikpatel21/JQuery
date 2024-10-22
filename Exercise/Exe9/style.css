@@ -1,0 +1,7 @@
+#addDiv {
+    color : red ;
+    padding: 5px 15px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: black;
+}

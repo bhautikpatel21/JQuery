@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hide {
+            display: none;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+            border:2px solid black;
+        }
+        .maindiv{
+            border:2px solid black;
+            height: 500px;
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .maindiv .list{
+            border: 2px solid black;
+            height: 400px;
+            width: 400px;
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+        }
+        .maindiv .list .list-1{
+            border:2px solid black;
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .maindiv .list .list-2{
+            border:2px solid black;
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left:10px;
+        }
+        .maindiv .list .list-1 .text{
+            border:2px solid black;
+            height: 50px;
+            width: 100px;
+        }
+        .maindiv .list .list-2 .pre-text{
+            border:2px solid black;
+            height: 50px;
+            width: 100px;
+            text-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- JQuery Remove Method -->
+
+    <!-- <h1 id="heading">
+        <span id="text">This is Span Tag</span>
+    </h1> -->
+
+    <!-- <div id="demo" class="box"></div> -->
+
+    <div id="maindiv" class="maindiv">
+        <ul class="list">
+            <li class="list-1">
+                <span class="text">This is span Tag</span>
+            </li>
+            <li class="list-2">
+                <pre class="pre-text">This is pre Tag</pre>
+            </li>
+        </ul>
+    </div>
+
+    <button id="btn">ClickMe</button>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="jQuery.js"></script>
+</body>
+
+</html>

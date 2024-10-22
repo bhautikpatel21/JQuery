@@ -1,0 +1,26 @@
+
+#btn {
+    padding : 5px 20px;
+    border : solid black;
+    border-radius: 10px;
+    margin: 20px 0; 
+    background-color: teal;
+}
+
+#input {
+    display: none;
+
+}
+
+#btn2 {
+    display: none;
+    padding : 5px 20px;
+    border : solid black;
+    border-radius: 10px;
+    margin: 20px 0; 
+    background-color: teal;
+}
+
+.hidebtn {
+    display: none;
+}

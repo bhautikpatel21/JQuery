@@ -1,0 +1,9 @@
+#Submit:disabled {
+    cursor: not-allowed;
+}
+
+#Submit {
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}

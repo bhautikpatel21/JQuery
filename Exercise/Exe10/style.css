@@ -1,0 +1,14 @@
+#btn {
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: darkgrey;
+}
+
+.Form {
+    display: flex ;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+

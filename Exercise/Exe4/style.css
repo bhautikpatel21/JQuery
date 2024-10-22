@@ -1,0 +1,17 @@
+.box {
+    display: none;
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    margin: auto;
+
+}
+
+#btn {
+    padding: 10px 20px;
+    background-color: red;
+    border: 1px solid blue;
+    border-radius: 5px;
+    text-align: center;
+
+}

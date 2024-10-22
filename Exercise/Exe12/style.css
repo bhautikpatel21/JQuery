@@ -1,0 +1,15 @@
+#write {
+    color : red ;
+    padding: 9px 25px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: black;
+}
+
+input {
+    display: none ;
+    border: 2px solid gray;
+    margin: 10px 0;
+    border-radius: 5px;
+    height: 25px;
+}
